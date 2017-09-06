@@ -1,0 +1,23 @@
+
+		p {color: black;
+			font-size: : 20px;
+		}
+		p span {
+			color:red;
+		}
+
+		p .second_span{
+			color:gray;
+		}
+
+		span {
+			color:orange;
+		}
+
+		.second_span{
+			color:brown;
+		}
+		h1.span {
+			color:orange;
+		}
+
