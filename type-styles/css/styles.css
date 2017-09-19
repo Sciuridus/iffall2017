@@ -1,0 +1,96 @@
+		body {
+			background-color:rgb(255,255,255);
+		}
+		h1{
+			font-family:ubuntu;
+			font-size:40px;
+		}
+
+		h2{
+			font-family:ubuntu;
+			font-size:18px;
+		}
+
+		p.header{
+			font-family:ubuntu;
+			font-size:24px;
+			color: magenta;
+		}
+
+		span.indicator{
+			font-family:helvetica;
+			font-size:12px;
+			text-decoration:underline;
+			color: grey;
+		}
+
+		span.item1{
+			font-family:ubuntu;
+			font-size:18px;
+			color: black;
+		}
+		span.item2{
+			font-family:ubuntu;
+			font-size:18px;
+			font-weight: bold;
+			color: black;
+		}
+		span.oops{
+			font-family:ubuntu;
+			font-size:18px;
+			font-weight: 100;
+			color: black;
+		}
+
+		span.item3{
+			font-family:ubuntu;
+			font-size:18px;
+			color: black;
+		}
+		span.item4{
+			font-family:ubuntu;
+			font-size:18px;
+			font-style:italic;
+			color: black;
+		}
+		span.item5{
+			font-family:ubuntu;
+			font-size:18px;
+			letter-spacing:2px;
+			color: black;
+		}
+		span.item6{
+			font-family:ubuntu;
+			font-size:18px;
+			text-transform: lowercase;
+			color: black;
+		}
+		span.item7{
+			font-family:ubuntu;
+			font-size:18px;
+			text-transform: uppercase;
+			color: black;
+		}
+		span.item8{
+			font-family:ubuntu;
+			font-size:18px;
+			text-transform: capitalize;
+			color: black;
+		}
+		span.item9{
+			font-family:ubuntu;
+			font-size:18px;
+			text-decoration: underline;
+			color: black;
+		}
+		span.item10{
+			font-family:ubuntu;
+			font-size:18px;
+			color: black;
+		}
+		span.item11{
+			font-family:ubuntu;
+			font-size:18px;
+			text-decoration: overline;
+			color: black;
+		}
