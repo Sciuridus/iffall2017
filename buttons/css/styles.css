@@ -1,0 +1,699 @@
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}
+
+			a#btn_cocacola {
+				display: inline-block;
+				margin:auto;
+				width:150px;
+				height: 150px;
+				margin-top: 50px;
+				color: #e61d2b;
+				background-image: url("http://www.coca-cola.com/content/dam/GO/CokeZone/Common/global/logo/logodesktop/coca-cola-logo-260x260.png");
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			#btn_cocacola:hover {
+				filter: blur(10px);
+			}
+
+
+			a#btn_apple {
+				display: inline-block;
+				margin:auto;
+				width:150px;
+				height: 150px;
+				margin-top: 50px;
+				color: #e61d2b;
+				background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1000px-Apple_logo_black.svg.png");
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_apple:hover {
+				background-image: url("http://www.freepngimg.com/download/apple_iphone/5-2-apple-iphone-png-picture.png");
+				background-size: 70%;
+				margin-left: 45px;
+			}
+			a#btn_ibm {
+				display: inline-block;
+				margin:auto;
+				width:150px;
+				height: 150px;
+				margin-top: 50px;
+				color: #e61d2b;
+				background-image: url("https://fontmeme.com/images/IBM-Logo.jpg");
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_ibm:hover {
+				filter:grayscale(90);
+			}
+			a#btn_harley {
+				display: inline-block;
+				margin:auto;
+				width:150px;
+				height: 150px;
+				margin-top: 50px;
+				color: #e61d2b;
+				background-image: url("https://i.pinimg.com/736x/32/85/44/328544961a17ea71b5cec146215895c0.jpg");
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_harley:hover {
+				margin-top: 65px;
+				margin-left: 15px;
+				background-image: url("http://bestanimations.com/Transport/Bikes/Motorbikes/harley-davidson-motorcycle-animated-gif-12.gif");
+			}
+
+			a#btn_mk {
+				display: inline-block;
+				margin:auto;
+				width:150px;
+				height: 150px;
+				margin-top: 50px;
+				color: #e61d2b;
+				background-image: url("http://2c2f06a14a9ade4267e6-fb8aac3b3bf42afe824f73b606f0aa4c.r92.cf1.rackcdn.com/tenantlogos/11101.png");
+				background-size: 105%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_mk:hover {
+				margin-top: 65px;
+				margin-left: 15px;
+				background-image: url("https://i.pinimg.com/736x/7a/d4/d5/7ad4d5e05906680560b7886385bcb9ff--designer-handbags-outlet-designer-bags.jpg");
+				background-size: 90%;
+			}
+			a#btn_lyft {
+				display: inline-block;
+				margin-top: 80px;
+				margin-left: 15px;
+				width:150px;
+				height: 150px;
+				color: #e61d2b;
+				background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Lyft_logo.svg/2000px-Lyft_logo.svg.png");
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_lyft:hover {
+				margin-top: 80px;
+				margin-left: 15px;
+				filter:invert(100);
+			}
+			a#btn_sam {
+				display: inline-block;
+				margin-top: 90px;
+				margin-left: 15px;
+				width:150px;
+				height: 150px;
+				color: #e61d2b;
+				background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2000px-Samsung_Logo.svg.png");
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_sam:hover {
+				margin-top: 90px;
+				margin-left: 15px;
+				filter: hue-rotate(300deg);
+			}
+
+			a#btn_cn {
+				display: inline-block;
+				margin-top: 90px;
+				margin-left: 15px;
+				width:150px;
+				height: 150px;
+				color: #e61d2b;
+				background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Cartoon_Network_2004_logo.svg/220px-Cartoon_Network_2004_logo.svg.png");
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_cn:hover {
+				margin-top: 90px;
+				margin-left: 15px;
+				filter: drop-shadow(10px 10px 80px black);
+			}
+			a#btn_nbc {
+				display: inline-block;
+				margin-top: 90px;
+				margin-left: 15px;
+				width:150px;
+				height: 150px;
+				color: black;
+				background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/NBC_2014_Ident.svg/1200px-NBC_2014_Ident.svg.png");
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_nbc:hover {
+				margin-top: 90px;
+				margin-left: 15px;
+				filter: invert(90%);
+				
+			}
+			a#btn_nike {
+				display: inline-block;
+				margin-top: 90px;
+				margin-left: 0px;
+				width:150px;
+				height: 150px;
+				color: black;
+				font-family: 'Futura', serif;
+				font-size: 70px;
+				font-weight: bold;
+				font-style: italic;
+				text-decoration: none;
+				color:black;
+			}
+
+			a#btn_nike:hover {
+				margin-top: 90px;
+				margin-left: 0px;
+				font-family: sans-serif;
+				color:black;
+			}
+			a#btn_ofa {
+				display: inline-block;
+				margin-top: 90px;
+				margin-left: 0px;
+				width:150px;
+				height: 60px;
+				color: rgb(255, 255, 255);
+				font-size: 37px;
+				padding: 11px;
+				text-shadow: 0px -3px 30px rgba(223, 230, 30, 0.8);
+				-webkit-border-radius: 19.45945945945946px;
+				-moz-border-radius: 19.45945945945946px;
+				border-radius: 19.45945945945946px;
+				background: rgb(0, 2, 255);
+				background: -moz-linear-gradient(38deg, rgb(0, 2, 255) 30%, rgb(241, 191, 207) 87%);
+				background: -webkit-linear-gradient(38deg, rgb(0, 2, 255) 30%, rgb(241, 191, 207) 87%);
+				background: -o-linear-gradient(38deg, rgb(0, 2, 255) 30%, rgb(241, 191, 207) 87%);
+				background: -ms-linear-gradient(38deg, rgb(0, 2, 255) 30%, rgb(241, 191, 207) 87%);
+				background: linear-gradient(308deg, rgb(0, 2, 255) 30%, rgb(241, 191, 207) 87%);
+				-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+				-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+				box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+
+			}
+
+			a#btn_ofa:hover {
+				margin-top: 90px;
+				color: rgb(0, 0,0);
+				font-size: 37px;
+				padding: 11px;
+				text-shadow: 0px -3px 30px rgba(223, 230, 30, 0.8);
+				-webkit-border-radius: 19.45945945945946px;
+				-moz-border-radius: 19.45945945945946px;
+				border-radius: 19.45945945945946px;
+				background: rgb(0, 2, 255);
+				background: -moz-linear-gradient(38deg, rgb(0, 2, 255) 30%, rgb(241, 191, 207) 87%);
+				background: -webkit-linear-gradient(38deg, rgb(0, 2, 255) 30%, rgb(241, 191, 207) 87%);
+				background: -o-linear-gradient(38deg, rgb(0, 2, 255) 30%, rgb(241, 191, 207) 87%);
+				background: -ms-linear-gradient(38deg, rgb(0, 2, 255) 30%, rgb(241, 191, 207) 87%);
+				background: linear-gradient(308deg, rgb(0, 2, 255) 30%, rgb(241, 191, 207) 87%);
+				-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+				-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+				box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+	
+			}
+
+			a#btn_tesla {
+				display: inline-block;
+				margin-top: 70px;
+				margin-left: 15px;
+				width:150px;
+				height: 150px;
+				color: #e61d2b;
+				background-image: url("http://www.carlogos.org/logo/Tesla-logo-2003-2500x2500.png");
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_tesla:hover {
+				margin-top: 70px;
+				margin-left: 15px;
+				filter:brightness(0%);
+			}
+
+			a#btn_velocity {
+				display: inline-block;
+				margin-top: 70px;
+				margin-left: 15px;
+				width:150px;
+				height: 150px;
+				color: #e61d2b;
+				background-image: url("http://1.bp.blogspot.com/-PTW6Gsjhahg/TnyrmupEGqI/AAAAAAAACLI/ZkphTtJQdL0/s500/Velocity+logo+2011.png");
+				background-size: 100%;
+				background-color: black;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_velocity:hover {
+				margin-top: 70px;
+				margin-left: 15px;
+				background-color: white;
+			}
+
+			a#btn_newyorker {
+				display: inline-block;
+				margin-top: 70px;
+				margin-left: 15px;
+				padding-top: 60px;
+				font-family: 'New Rocker', cursive;
+				color: black;
+				font-size: 30px;
+				text-decoration: none;
+			}
+
+			a#btn_newyorker:hover {
+				margin-top: 70px;
+				margin-left: 15px;
+				color:pink;
+				font-weight: bolder;
+				text-shadow: 5px 5px gray;
+			}
+
+			a#btn_moo {
+				display: inline-block;
+				margin-top: 70px;
+				margin-left: 15px;
+				padding-top: 60px;
+				display: inline-block;
+				margin-top: 70px;
+				margin-left: 15px;
+				padding-top: 60px;
+				font-family: 'Montserrat', cursive;;
+				color: black;
+				font-size: 27px;
+				text-decoration: none;
+			}
+
+			a#btn_moo:hover {
+				font-size: 45px;
+			}
+
+			a#btn_npr {
+				display: inline-block;
+				margin-top: 100px;
+				margin-left: 15px;
+				width:150px;
+				height: 150px;
+				color: #e61d2b;
+				background-image: url("http://www.npr.org/about/images/press/Logos/NPRLogo_RGB.png");
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_npr:hover {
+				filter: saturate(35%);
+			}
+
+			a#btn_molly {
+				display: inline-block;
+				margin-top: 100px;
+				margin-left: 15px;
+				width:150px;
+				height: 150px;
+				background-image: url("http://www.ozarksplayground.com/wp-content/uploads/2014/12/logo.png");
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_molly:hover {
+				margin-top: 100px;
+				margin-left: 15px;
+				transform: skew(15deg);
+			}
+
+			a#btn_hulk {
+				display: inline-block;
+				margin-top: 100px;
+				margin-left: 15px;
+				width:150px;
+				height: 150px;
+				background-image: url("https://cdn3.whatculture.com/images/2017/06/e845eab675e45d31-600x400.jpeg");
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_hulk:hover {
+				margin-top: 60px;
+				margin-left: 0px;
+				width:250px;
+				height:250px;
+				background-image: url("http://www.news965.com/rf/image/Pub/p8/News965/2017/09/18/Images/hulk%20hogan.jpg");
+				background-size: 130%;
+			}
+
+			a#btn_potter {
+				display: inline-block;
+				margin-top: 80px;
+				margin-left: 15px;
+				padding-top: 20px;
+				display: inline-block;
+				margin-top: 80px;
+				margin-left: 15px;
+				padding-top: 20px;
+				padding-bottom : 20px;
+				padding-left: 30px;
+				padding-right: 30px;
+				font-family: 'Marck Script', cursive;
+				color: black;
+				font-size: 24px;
+				text-decoration: none;
+				border: 3px solid black;
+			}
+
+			a#btn_potter:hover {
+				border: 3px dotted black;
+				color: gray;
+				background: rgba(50,50,50,0);
+			}
+
+			a#btn_cat {
+				display: inline-block;
+				margin-top: 100px;
+				margin-left: 15px;
+				width:150px;
+				height: 150px;
+				background-image: url("https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg");
+				filter:grayscale(100);
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_cat:hover {
+				margin-top: 00px;
+				margin-left: -20px;
+				width:300px;
+				height:300px;
+				filter:grayscale(00);
+				background-image: url("https://i.ytimg.com/vi/vxNnUU3eRD0/maxresdefault.jpg");
+				background-size: 150%;
+			}
+
+			a#btn_nerf {
+				display: inline-block;
+				margin-top: 80px;
+				margin-left: 15px;
+				padding-top: 20px;
+				display: inline-block;
+				margin-top: 80px;
+				margin-left: 15px;
+				padding-top: 20px;
+				padding-bottom : 20px;
+				padding-left: 30px;
+				padding-right: 30px;
+				font-family: 'Montserrat', cursive;
+				color: black;
+				font-size: 24px;
+				text-decoration: none;
+				font-style: italic;
+				border: 3px solid black;
+			}
+
+			a#btn_nerf:hover {
+				background: rgba(0,0,0,0);
+				color: orange;
+				box-shadow: inset 0 0 0 3px orange;
+				background-color: red;
+				font-size: 30px;
+			}
+
+			a#btn_ideo{
+				display: inline-block;
+				margin-top: 100px;
+				margin-left: 15px;
+				width:150px;
+				height: 150px;
+				background-image: url("https://www.ideo.org/assets/css/images/ideo_org_logo_arch.svg");
+				filter:blur(2px);
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_ideo:hover {
+				filter:grayscale(00);
+				width:250px;
+				height: 250px;
+				background-image: url("https://cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/006/379/original/IDEOorg_logo_web.jpg?1474313970");
+				background-size: 90%;
+			}
+
+
+
+			a#btn_fitbit{
+				display: inline-block;
+				margin-top: 60px;
+				margin-left: 15px;
+				width:150px;
+				height: 150px;
+				background-image: url("https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/28/65/f5/2865f5be-6afb-f983-c53c-c9c8d86f100a/source/1200x630bb.jpg");
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_fitbit:hover {
+				-webkit-transform:rotate(180deg);
+			}
+
+
+			a#btn_flight {
+				display: inline-block;
+				margin-top: 80px;
+				margin-left: 30px;
+				padding-top: 50px;
+				padding-bottom : 50px;
+				padding-left: 30px;
+				padding-right: 30px;
+				background-image: url("http://is5.mzstatic.com/image/thumb/Purple128/v4/29/40/bd/2940bd11-d054-ebff-af5a-f8f38118b5b7/source/1200x630bb.jpg");
+				background-size:100%;
+				background-repeat: no-repeat;
+				font-family: 'Montserrat', cursive;
+				color: black;
+				font-size: 50px;
+				text-decoration: none;
+			}
+
+			a#btn_flight:hover {
+				margin-left: 3px;
+				color:transparent;
+				background-image: url("http://is5.mzstatic.com/image/thumb/Purple128/v4/29/40/bd/2940bd11-d054-ebff-af5a-f8f38118b5b7/source/1200x630bb.jpg");
+				background-size:100%;
+				background-repeat: no-repeat;
+			}
+
+			a#btn_hsn {
+				display: inline-block;
+				margin-top: 100px;
+				margin-left: 15px;
+				width:150px;
+				height: 150px;
+				color: #e61d2b;
+				background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/HSN_logo.svg/608px-HSN_logo.svg.png");
+				background-size: 100%;
+				background-repeat: no-repeat;
+				font-size: 10px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_hsn:hover {
+				-webkit-transform:rotate(180deg);
+			}
