@@ -1,0 +1,164 @@
+body{
+	font-family: 'Archivo Narrow'
+}
+h1{
+	text-align: center;
+	font-size:60pt;
+	margin-top: 175spx;
+	margin-bottom: 0;
+	color: #ffe066;
+}
+h3{
+	margin-top: 3px;
+	text-align: center;
+	font-size:30px;
+	color: #ffe066;
+}
+section#one{
+	padding-top:89px;
+	text-align: center;
+	background-image: url('https://www.dailydot.com/wp-content/uploads/d86/90/4e6799780ddaf254d8bbd0c6abfda567.jpg');
+	padding-bottom:172.5px;
+
+}
+h2{
+	margin-top:42px;
+	margin-bottom: -5px;
+	font-size: 40px;
+	text-align: center;
+}
+.bobby{
+	height: 646px;
+}
+
+.p1{
+	float: right;
+ 	height: 300px;
+ 	width: 400px;
+ 	margin-left: 30px;
+ 	margin-top: 38px;
+ 	margin-bottom: 30px;
+}
+
+.text1{
+	font-size:18.5px;
+	margin-top: 20px;
+	margin: auto;
+	width: 960px;
+	margin: auto;
+	line-height: 1.3rem;
+	letter-spacing: -.17px;
+}
+
+div.text1 p {
+	margin-bottom: -3.5px;
+}
+
+section#two{
+	color:black;
+	padding-top:1px;
+	border-left: 200px;
+	height: 644px;
+	background-color: rgb(230,230,230);
+	/*background-color:transparent;*/
+	}
+
+section#three h2{
+	margin-top:42px;
+	margin-bottom: 32px;
+	font-size: 40px;
+	text-align: center;
+	color:black;
+}
+
+section#three{
+	color:black;
+	padding-top:1px;
+	border-left: 200px;
+	height: 678px;
+	background-color: #ffc299;
+	/*background-color:transparent;*/
+	}
+
+div.text2{
+	font-size:18.5px;
+	margin-top: 20px;
+	margin: auto;
+	width: 960px;
+	margin: auto;
+	letter-spacing: -.17px;
+	}
+
+div.pics{
+	height:150px;
+	width: 50%;
+	display: inline-block;
+	margin-bottom: 20px;
+	}
+
+.p2{
+	float: left;
+ 	height: 150px;
+ 	width: 200px;
+}
+
+h4{
+	margin-left: 13px;
+	margin-top: 2.5px;
+	font-size:21px;
+	float: left;
+	letter-spacing: -.1px;
+}
+
+section#three p{
+	margin-left: 212px;
+	margin-top: -119px;
+	float:left;
+	line-height: 21px;
+}
+
+section#four{
+	color:white;
+	padding-top:1px;
+	border-left: 200px;
+	height: 412px;
+	background-color:#ffe066;
+	/*background-color:transparent;*/
+	}
+section#four h2{
+	margin-top:42px;
+	margin-bottom: 32px;
+	font-size: 40px;
+	text-align: center;
+	color:black;
+}
+
+.text3{
+	font-size:27.5px;
+	text-align: center;
+	margin-left: 4px;
+	line-height:31px;
+	letter-spacing: -.2px;
+	color:black;
+	}
+
+section#five{
+	height:98px;
+	background-color:#6666ff;
+	/*background-color:transparent;*/
+	}
+
+.copyright{
+	color:#ffe066;
+	margin-left: 232px;
+	padding-top: 40px;
+	font-size:18px;
+}
+
+.social{
+	color:#ffe066;
+	margin-right: 232px;
+	font-size:30px;
+	margin-top:-25px;
+	float:right;
+}
