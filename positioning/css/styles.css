@@ -1,0 +1,30 @@
+	
+.one{
+	float: right;
+	margin:10px 10px 10px 10px;
+}
+
+.two{
+	position: absolute;
+	margin:70px 0px 0px 639px;
+
+}
+.three{
+	background-color: green;
+	position:fixed;
+	top: 0;
+	right:0;
+
+}
+.four{
+	background-color: red;
+	position:absolute;
+	margin:40px 100px 0px 300px;
+	z-index: 1;
+}
+.five{
+	background-color: black;
+	position:absolute;
+	margin:50px 100px 0px 310px;
+
+}
