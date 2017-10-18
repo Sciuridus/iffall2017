@@ -1,0 +1,33 @@
+body{
+	background-color: rgb(250,250,240);
+}
+
+h1{
+	text-align: center;
+}
+
+#plan{
+	margin-left: 205px;
+	width:800px;
+	text-align: left;
+}
+
+#box{
+	width:1000px;
+	margin: auto; 
+}
+#before{
+	width:400px;
+	float: left;
+	height: 240px;
+}
+#middle{
+	width:100px;
+	float: left;
+	opacity: 0;
+}
+#after{
+	width:500px;
+	float: left;
+	height: 320px;
+}
