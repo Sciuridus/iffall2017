@@ -1,0 +1,111 @@
+body {
+	height: 120%;
+	width: 100%;
+	background-image: url('../images/hh4.jpg');
+	background-size: cover;
+	font-family: 'Libre+Baskerville', serif;
+	color: rgb(215,250,215);
+	padding: 0;
+	margin: 0;
+	font-size: 22px;
+	line-height: 150%;
+}
+
+#song{
+	height:20%;
+	width:20%;
+	position: fixed;
+	z-index: 99;
+	bottom: 40px;
+	left:30px ;
+	opacity: 0.3;
+}
+
+#one {
+	height: 200%;
+	width: 100%;
+
+
+}
+
+.p1 {
+	display: none;
+	margin-top: 0px; 
+	height: 100vh;
+	width: 100vw;
+	left: 0%;
+	position: fixed;
+	z-index: 3;
+
+}
+.p2 {
+	margin-top: 0px; 
+	height: 100vh;
+	width: 100vw;
+	left: 0%;
+	position: fixed;
+	z-index: 3;
+
+}
+
+.dark{
+	color: rgb(255,100,50);
+}
+.light{
+	color: rgb(255,120,64);
+}
+
+#text {
+	text-align: left;
+	padding-top: 2000px;
+	padding-left: 40%;
+	width: 400px;
+
+}
+p.dark:hover{
+	text-shadow: 4px 4px 4px rgba(0,0,0,0.8);
+}
+p.light:hover{
+	text-shadow: 4px 4px 4px rgba(235,235,235,0.5);
+}
+
+.column {
+	margin-left:30%;
+	margin-top:30%;
+    float: left;
+    width: 40%;
+    padding: 50px;
+    height: 2400px; 
+    margin-bottom: 20%;
+}
+
+
+
+#rtt {
+	display: block;
+	width: 30px;
+	position: fixed;
+	z-index: 99;
+	bottom: 40px;
+	right:50px ;
+	opacity: 1;
+}
+
+#rtt:hover {
+	opacity: 0.9;   
+
+ 
+}
+
+footer{
+	
+	padding-top: 10px;
+	width:100%;
+	height:100px;
+	background-color: rgba(10,10,10,0.9);
+}
+.small{
+	font-size: 12px;
+	text-align: center;
+    line-height: 150%;
+}
