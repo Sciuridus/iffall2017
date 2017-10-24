@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+	<title>Viva La Vida</title>
+
+		<link href="css/styles2.css" rel="stylesheet" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+	</head>
+
+	<body>
+		<img src="images/wrap.png" class="p1" id="wrap">
+
+		<audio id="song" controls>
+			<!-- stuff from w3schools -->
+			  <source src="audio/vlv.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+
+
+		<div id="text">
+
+
+		<p class="light">
+
+			<span>I used to rule the world</span>
+			<br>
+			<span>Seas would rise when I gave the word</span>
+			<br>
+			<span>Now in the morning I sleep alone</span>
+			<br>
+			<span>Sweep the streets I used to own</span>
+		</p>
+		<br>
+		<p class="light">
+			<span>I used to roll the dice</span>
+			<br>
+			<span>Feel the fear in my enemy's eyes</span>
+			<br>
+			<span>Listened as the crowd would sing</span>
+			<br>
+			<span>Now the old king is dead long live the king</span>
+			<br>
+			<span>One minute I held the key</span>
+			<br>
+			<span>Next the walls were closed on me</span>
+			<br>
+			<span>And I discovered that my castles stand</span>
+			<br>
+			<span>Upon pillars of salt and pillars of sand</span>
+		</p>
+		<br>
+		<p class="light">
+			<span>I hear Jerusalem bells a-ringing</span>
+			<br>
+			<span>Roman cavalry choirs are singing</span>
+			<br>
+			<span>Be my mirror, my sword and shield</span>
+			<br>
+			<span>My missionaries in a foreign field</span>
+			<br>
+			<span>For some reason I can't explain</span>
+			<br>
+			<span>Once you'd gone there was never</span>
+			<br>
+			<span>Never an honest word</span>
+			<br>
+			<span>And that was when I ruled the world</span>
+		</p>
+		<br>
+		<p class="dark">
+			<span>It was a wicked and wild wind</span>
+			<br>
+			<span>Blew down the doors to let me in</span>
+			<br>
+			<span>Shattered windows and the sound of drums</span>
+			<br>
+			<span>People couldn't believe what I'd become</span>
+			<br>
+			<span>Revolutionaries wait</span>
+			<br>
+			<span>For my head on a silver plate</span>
+			<br>
+			<span>Just a puppet on a lonely string</span>
+			<br>
+			<span>Oh who would ever want to be king?</span>
+		</p>
+		<br>
+		<p class="dark">
+			<b>I hear Jerusalem bells a-ringing</b>
+			<br>
+			<b>Roman cavalry choirs are singing</b>
+			<br>
+			<b>Be my mirror, my sword and shield</b>
+			<br>
+			<b>My missionaries in a foreign field</b>
+			<br>
+			<b>For some reason I can't explain</b>
+			<br>
+			<b>I know St Peter won't call my name</b>
+			<br>
+			<b>Never an honest word</b>
+			<br>
+			<b>But that was when I ruled the world</b>
+		</p>
+		<br>
+		<p class="light">
+			<span>Oh oh oh oh ohh oh</span>
+			<br>
+			<span>Oh oh oh oh ohh oh</span>
+			<br>
+			<span>Oh oh oh oh ohh oh</span>
+			<br>
+			<span>Oh oh oh oh ohh oh</span>
+			<br>
+			<span>Oh oh oh oh ohh oh</span>
+		</p>
+		<br>
+		<p class="light">
+			<span>Hear Jerusalem bells a-ringing</span>
+			<br>
+			<span>Roman cavalry choirs are singing</span>
+			<br>
+			<span>Be my mirror, my sword and shield</span>
+			<br>
+			<span>My missionaries in a foreign field</span>
+			<br>
+			<span>For some reason I can't explain</span>
+			<br>
+			<span>I know St Peter won't call my name</span>
+			<br>
+			<span>Never an honest word</span>
+			<br>
+			<span>But that was when I ruled the world</span>
+			<br><br><br><br><br><br><br><br><br><br><br>
+		</p>
+		</div>
+	</div>
+
+
+	<img src="images/arrow.png" onclick="topFunction()" id="rtt">
+
+	<footer class="bot">
+	<p class="small">
+		Song produced by Coldplay
+		<br>
+		Lyrics written by Christopher Anthony John Martin, Guy Rupert Berryman, Jonathan Mark Buckland, William Champion 
+		<br>Copyright © Universal Music Publishing Group
+	</p>
+	</footer>
+
+	<script>
+	// found on w3 schools
+	// window.onscroll = function() {scrollFunction()};
+
+	// function scrollFunction() {
+ //    	if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+ //        	document.getElementById("rtt").style.display = "block";
+ //    	} 
+ //    	else {
+ //        	document.getElementById("rtt").style.display = "none";
+ //    	}
+	// }
+
+	var pageHeight = document.body.scrollHeight;
+	window.onscroll = function() {scrollFunction2()};
+
+	function scrollFunction2() {
+		if (document.body.scrollTop > pageHeight/1.23 || document.documentElement.scrollTop > pageHeight/1.23) {
+        	document.getElementById("song").style.opacity= "1.0";
+        	document.getElementById("rtt").style.display = "block";
+        	document.getElementById("wrap").className= "p1";
+    	} 
+    	else if (document.body.scrollTop > pageHeight/3.6 || document.documentElement.scrollTop > pageHeight/3.6) {
+        	document.getElementById("song").style.opacity= "0.3";
+        	document.getElementById("rtt").style.display = "block";
+        	document.getElementById("wrap").className= "p1";
+    	} 
+    	else if (document.body.scrollTop > pageHeight/8.8 || document.documentElement.scrollTop > pageHeight/8.8){
+        	document.getElementById("song").style.opacity= "0.8";
+        	document.getElementById("rtt").style.display = "none";
+        	document.getElementById("wrap").className= "p1";
+    	}
+    	else{
+    		document.getElementById("song").style.opacity= "0";
+        	document.getElementById("rtt").style.display = "none";
+        	document.getElementById("wrap").className= "p1";
+    	}
+	}
+	// window.onscroll = function() {scrollFunction3()};
+
+	// function scrollFunction3() {
+ //    	if (document.body.scrollTop > 830 || document.documentElement.scrollTop > 830) {
+ //        	document.getElementByClass("p1").style.display= "block";
+ //    	} 
+ //    	else {
+ //        	document.getElementByClass("p1").style.opacity= "none";
+ //    	}
+	// }
+	
+
+	function topFunction() {
+    	document.body.scrollTop = 0;
+    	document.documentElement.scrollTop = 0;
+	}
+	</script>
+
+	</body>
+
+</html>
