@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Note</title>
+
+	<style type="text/css">
+
+		body{
+			padding: 0;
+			margin: 0;
+		}
+		div{
+			display: inline-block;
+			/*if there's room to be side by side, be side by side, else one column*/
+			width: 50%;
+		}
+
+		div#main{
+			display: block;
+			max-width:960px;
+			width: 100%;
+			margin:auto;
+
+		}
+
+		div.firstdiv{
+			background-color: red;
+			color:white;
+			padding:30px;
+			box-sizing:border-box;
+		}
+
+		div.seconddiv{
+			background-color: blue;
+			color:yellow;
+			padding:30px;
+			box-sizing:border-box;
+		}
+
+		@media screen and (max-width: 600px ){
+			/*only applies to screen width 600px or less*/
+			div{
+				/*display:inline-block;*/
+				width:100%;
+			}
+		}
+		@media screen and (max-width: 400px ){
+			/*only applies to screen width 600px or less*/
+			div.firstdiv{
+				/*display:inline-block;*/
+				background-color: cyan;
+			}
+		}
+		@media screen and (max-width: 300px ){
+			/*only applies to screen width 600px or less*/
+			div.seconddiv{
+				/*display:inline-block;*/
+				display: none;
+			}
+		}
+
+
+
+	</style>
+
+</head>
+<body>
+	<div id="main">
+		<div class="firstdiv">
+			<p>
+				fgregs  er  gp a4i3weg   ;v[a 4io3a;tw  beszpdg[iat    ;q  4h  v t ae hw[fsdiobga ryp34q6[   ahti 'weoG  BV  at4[h'iEOWGdjsqg hRE   DFPIBR[ EHAOY'3J Y4GR[
+			</p>  
+			<p>
+				fgregs  er  gp a4i3weg   ;v[a 4io3a;tw  beszpdg[iat    ;q  4h  v t ae hw[fsdiobga ryp34q6[   ahti 'weoG  BV  at4[h'iEOWGdjsqg hRE   DFPIBR[ EHAOY'3J Y4GR[
+			</p>
+		</div><!-- 
+			 --><div   class="seconddiv">
+			<p>
+				fgregs  er  gp a4i3weg   ;v[a 4io3a;tw  beszpdg[iat    ;q  4h  v t ae hw[fsdiobga ryp34q6[   ahti 'weoG  BV  at4[h'iEOWGdjsqg hRE   DFPIBR[ EHAOY'3J Y4GR[
+			</p>
+			<p>
+				fgregs  er  gp a4i3weg   ;v[a 4io3a;tw  beszpdg[iat    ;q  4h  v t ae hw[fsdiobga ryp34q6[   ahti 'weoG  BV  at4[h'iEOWGdjsqg hRE   DFPIBR[ EHAOY'3J Y4GR[
+			</p>
+		</div>
+	</div>
+
+</body>
+</html>
