@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+	<title>Welcome to the World of Saga</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<style type="text/css">
+			html {
+			    background-color: #7CC6B7;
+			}
+			body{
+				margin:0;
+				padding:0;
+				opacity: 1;
+    			transition: 1s opacity;
+			}
+
+			img{
+				width:100%;
+			}
+			body.fade-out{
+				margin:0;
+				padding:0;
+				opacity: 0;
+    			transition: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<script>document.body.className += ' fade-out';</script>
+		<a href="6.html">
+		<img src="final/intro.jpg">
+		</a>
+		<script type="text/javascript"> 
+			$(function() {
+   			$('body').removeClass('fade-out');
+			});
+		</script>		
+	</body>
+
+
+</html>
