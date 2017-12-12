@@ -1,0 +1,55 @@
+body{
+	background-color: rgba(229,218,42,0.9);
+
+}
+.link{
+	position:fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	max-width: 100%;
+	max-height: 100%
+	z-index: 3;
+}
+.bg{
+	position: fixed;
+	left: 10%;
+	top: 5%;
+	max-width: 80%;
+	max-height: 100%;
+	z-index: 1;
+}
+.text{
+	position: fixed;
+	right: 3%;
+	bottom: -10%;
+	z-index: 2;
+}
+
+@media screen and (min-width: 800px ){
+	.text{
+		max-width: 40%;
+	}
+	.link{
+		z-index: 10;
+	}
+}
+@media screen and (max-width: 800px ){
+	.text{
+		bottom: 5%;
+		max-width: 50%;
+	}
+		.link{
+		z-index: 10;
+	}
+}
+@media screen and (max-width: 600px ){
+	.text{
+		bottom: 10%;
+		max-width: 80%;
+	}
+		.link{
+		z-index: 10;
+	}
+}

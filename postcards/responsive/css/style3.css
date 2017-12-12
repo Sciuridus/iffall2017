@@ -1,0 +1,73 @@
+body{
+	background-color: rgba(50,50,200,0.9);
+
+}
+.link{
+	position:fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	z-index: 3;
+	opacity: 0;
+}
+.bg{
+	position: fixed;
+	right: 0%;
+	bottom: 0%;
+	max-width: 100%;
+}
+.text{
+	position: fixed;
+	bottom: -100px;
+	left: 5%;
+	max-width: 40%;
+}
+.bg2{
+	z-index:2;
+	opacity:0;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	max-height: 100%;
+}
+
+@media screen and (min-width: 1000px ){
+	.text{
+		max-width: 40%;
+	}
+}
+@media screen and (max-width: 999px ){
+	.bg2{
+		opacity:1;
+	}
+	.bg{
+		bottom: 10%;
+
+	}
+	.text{
+		max-width: 50%;
+		bottom: -50px;
+	}
+}
+@media screen and (max-width: 800px ){
+	.bg{
+		bottom: 15%;
+
+	}
+	.text{
+		bottom: -20px;
+		max-width: 50%;
+	}
+}
+@media screen and (max-width: 500px ){
+		.bg{
+		bottom: 20%;
+
+	}
+	.text{
+		bottom: -20px;
+		max-width: 80%;
+	}
+}
